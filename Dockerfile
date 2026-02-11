@@ -1,9 +1,13 @@
 # build
 FROM node:20-alpine AS build
 WORKDIR /app
-COPY package*.json ./
+
+# ставим зависимости из project/
+COPY project/package*.json ./
 RUN npm ci
-COPY . .
+
+# копируем исходники project/
+COPY project/ ./
 RUN npm run build
 
 # serve
