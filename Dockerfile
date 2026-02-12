@@ -16,6 +16,9 @@ FROM nginx:alpine
 # по желанию очистить дефолтную страницу
 RUN rm -rf /usr/share/nginx/html/*
 
+# копируем конфигурацию nginx для SPA
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
 # копируем собранный фронтенд
 COPY --from=build /app/dist /usr/share/nginx/html
 
