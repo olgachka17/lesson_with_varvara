@@ -20,7 +20,7 @@ const documents: Document[] = [
     title: 'Диплом Бакалавра',
     gradient: 'from-primary via-[oklch(0.68_0.30_350)] to-[oklch(0.70_0.28_360)]',
     icon: 'graduation',
-    pdfUrl: '/englishwithvarvara/certificates/diploma-bachelor.pdf',
+    pdfUrl: '/public/certificates/diploma-bachelor.pdf',
   },
   {
     id: '2',
@@ -28,7 +28,7 @@ const documents: Document[] = [
     description: 'Магистратура',
     gradient: 'from-secondary via-[oklch(0.65_0.28_300)] to-[oklch(0.68_0.26_290)]',
     icon: 'seal',
-    pdfUrl: '/englishwithvarvara/certificates/diploma-magistr.pdf',
+    pdfUrl: '/public/certificates/diploma-magistr.pdf',
   },
   {
     id: '3',
@@ -36,7 +36,7 @@ const documents: Document[] = [
     description: 'International TEFL and TESOL Training',
     gradient: 'from-accent via-[oklch(0.70_0.30_70)] to-[oklch(0.75_0.30_60)]',
     icon: 'certificate',
-    pdfUrl: '/englishwithvarvara/certificates/International TEFL and TESOL Training.pdf',
+    pdfUrl: '/public/certificates/International TEFL and TESOL Training.pdf',
   },
 ]
 

@@ -22,5 +22,8 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 # копируем собранный фронтенд
 COPY --from=build /app/dist /usr/share/nginx/html
 
+# копируем public папку с фото и дипломами
+COPY --from=build /app/public /usr/share/nginx/html/public
+
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
