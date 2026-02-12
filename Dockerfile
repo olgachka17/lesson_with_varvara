@@ -4,7 +4,7 @@ WORKDIR /app
 
 # сначала зависимости
 COPY package.json package-lock.json ./
-RUN npm ci
+RUN npm install --legacy-peer-deps
 
 # потом весь код
 COPY . .
