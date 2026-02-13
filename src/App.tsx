@@ -84,7 +84,7 @@ function App() {
               </h1>
 
               <p className="text-lg md:text-xl mb-6 leading-relaxed max-w-4xl mx-auto text-muted-foreground">
-                Я <span className="font-bold text-foreground">Варвара</span>, преподаю английский уже 10 лет и помогаю взрослым начать говорить — для работы, переезда и путешествий, без зубрёжки и скучных учебников.
+                Я <span className="font-bold text-foreground">Варвара</span>, преподаю английский уже 10 лет и помогаю взрослым начать говорить - для работы, переезда и путешествий, без зубрёжки и скучных учебников.
               </p>
 
               <div>
@@ -528,7 +528,7 @@ function App() {
                         </div>
                         <div>
                           <h3 className="text-lg font-bold mb-1.5">Ученики</h3>
-                          <p className="text-muted-foreground text-sm">Работаю со взрослыми 18+</p>
+                          <p className="text-muted-foreground text-sm">Работаю со взрослыми</p>
                         </div>
                       </div>
                     </CardContent>
@@ -651,7 +651,7 @@ function App() {
                       </div>
                       <h3 className="font-bold mb-1.5 text-base">Телефон</h3>
                       <a href="tel:+88950227443" className="text-sm font-semibold text-primary hover:opacity-80 transition-colors">
-                        +8 (950) 227-44-43
+                        +7 (950) 227-44-43
                       </a>
                     </CardContent>
                   </Card>
