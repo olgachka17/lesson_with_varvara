@@ -80,7 +80,8 @@ function App() {
               </div>
 
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-foreground">
-                <span className="bg-gradient-to-r from-primary via-[oklch(0.68_0.30_350)] to-[oklch(0.70_0.28_360)] bg-clip-text text-transparent">Английский для взрослых</span>: заговорите уверенно через несколько месяцев регулярных занятий
+                <span className="block bg-gradient-to-r from-primary via-[oklch(0.70_0.30_350)] to-[oklch(0.68_0.30_350)] bg-clip-text text-transparent drop-shadow-lg" style={{ textShadow: '0 0 30px rgba(236, 72, 153, 0.8)' }}>Английский для взрослых:</span>
+                <span className="block">заговорите уверенно через несколько месяцев регулярных занятий</span>
               </h1>
 
               <p className="text-lg md:text-xl mb-6 leading-relaxed max-w-4xl mx-auto text-muted-foreground">
