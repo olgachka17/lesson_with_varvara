@@ -114,7 +114,7 @@ function App() {
                       <CheckCircle size={24} className="text-primary-foreground" weight="fill" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold mb-2">Для взрослых 18+</h3>
+                      <h3 className="text-lg font-bold mb-2">Для взрослых</h3>
                       <p className="text-muted-foreground text-sm leading-relaxed">
                         Можно прийти «с нуля» или после длинного перерыва. Подстроимся под ваш уровень и спокойно разгонимся.
                       </p>
