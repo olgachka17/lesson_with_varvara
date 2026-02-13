@@ -80,7 +80,7 @@ function App() {
               </div>
 
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-foreground">
-                Английский для взрослых: заговорите уверенно через несколько месяцев регулярных занятий
+                <span className="bg-gradient-to-r from-primary via-[oklch(0.68_0.30_350)] to-[oklch(0.70_0.28_360)] bg-clip-text text-transparent">Английский для взрослых</span>: заговорите уверенно через несколько месяцев регулярных занятий
               </h1>
 
               <p className="text-lg md:text-xl mb-6 leading-relaxed max-w-4xl mx-auto text-muted-foreground">
