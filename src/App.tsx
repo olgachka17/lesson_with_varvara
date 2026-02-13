@@ -485,7 +485,7 @@ function App() {
                 Платформы и специализация 💻
               </h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed font-medium">
-                Современные инструменты и проверенные подходы
+                Современные инструменты и проверенные подходы для взрослых и подростков
               </p>
             </div>
             <div className="rounded-3xl p-1 bg-gradient-to-br from-primary via-accent to-secondary shadow-lg">
@@ -500,7 +500,7 @@ function App() {
                         </div>
                         <div>
                           <h3 className="text-lg font-bold mb-1.5">Платформы</h3>
-                          <p className="text-muted-foreground text-sm">Работаю на Zoom, Progress Me, Kami — выбираем то, что удобно!</p>
+                          <p className="text-muted-foreground text-sm">Работаю в Zoom, Progressme, Kami — выбираем то, что удобно именно вам.</p>
                         </div>
                       </div>
                     </CardContent>
@@ -514,7 +514,7 @@ function App() {
                         </div>
                         <div>
                           <h3 className="text-lg font-bold mb-1.5">Специализация</h3>
-                          <p className="text-muted-foreground text-sm">Разговорный английский для работы, поездок и общения. Подготовка к собеседованиям и экзаменам для взрослых.</p>
+                          <p className="text-muted-foreground text-sm">Разговорный английский для работы, поездок и общения, подготовка к собеседованиям и взрослым экзаменам.</p>
                         </div>
                       </div>
                     </CardContent>
@@ -527,8 +527,8 @@ function App() {
                           <Student size={22} className="text-primary-foreground" weight="fill" />
                         </div>
                         <div>
-                          <h3 className="text-lg font-bold mb-1.5">Ученики</h3>
-                          <p className="text-muted-foreground text-sm">Работаю со взрослыми</p>
+                          <h3 className="text-lg font-bold mb-1.5">Подготовка к ОГЭ</h3>
+                          <p className="text-muted-foreground text-sm">Помогаю школьникам уверенно сдать ОГЭ по английскому: разбор формата, натренированные шаблоны и отработка типичных ошибок.</p>
                         </div>
                       </div>
                     </CardContent>
@@ -541,8 +541,8 @@ function App() {
                           <Heart size={22} className="text-accent-foreground" weight="fill" />
                         </div>
                         <div>
-                          <h3 className="text-lg font-bold mb-1.5">Мой принцип</h3>
-                          <p className="text-muted-foreground text-sm">Начинаем с весёлого повторения пройденного материала и им же заканчиваем! 😊</p>
+                          <h3 className="text-lg font-bold mb-1.5">Мой подход</h3>
+                          <p className="text-muted-foreground text-sm">Максимум практики, живые диалоги и понятные объяснения без зубрёжки — весь материал сразу применяем в речи.</p>
                         </div>
                       </div>
                     </CardContent>
