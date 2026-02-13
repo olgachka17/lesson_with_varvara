@@ -61,19 +61,19 @@ function App() {
           <div className="container mx-auto px-4 py-12 md:py-16">
             <div className="max-w-5xl mx-auto text-center">
               <div className="flex flex-wrap gap-2.5 mb-5 justify-center">
-                <Badge className="text-sm md:text-base px-5 py-2 bg-gradient-to-r from-primary to-[oklch(0.70_0.26_350)] text-primary-foreground hover:shadow-lg hover:scale-105 transition-all shadow-md font-semibold border-0">
+                <Badge className="text-sm md:text-base px-5 py-2 bg-gradient-to-r from-primary to-[oklch(0.70_0.26_350)] text-primary-foreground hover:shadow-lg hover:scale-105 transition-all shadow-md font-semibold border-0 opacity-80">
                   <Sparkle className="inline mr-2" weight="fill" size={18} />
                   10 лет преподавания
                 </Badge>
-                <Badge className="text-sm md:text-base px-5 py-2 bg-gradient-to-r from-secondary to-[oklch(0.65_0.28_300)] text-secondary-foreground hover:shadow-lg hover:scale-105 transition-all shadow-md font-semibold border-0">
+                <Badge className="text-sm md:text-base px-5 py-2 bg-gradient-to-r from-secondary to-[oklch(0.65_0.28_300)] text-secondary-foreground hover:shadow-lg hover:scale-105 transition-all shadow-md font-semibold border-0 opacity-80">
                   <Star className="mr-2" weight="fill" size={18} />
                   C1 English
                 </Badge>
-                <Badge className="text-sm md:text-base px-5 py-2 bg-gradient-to-r from-[oklch(0.68_0.26_190)] to-[oklch(0.65_0.30_210)] text-white hover:shadow-lg hover:scale-105 transition-all shadow-md font-semibold border-0">
+                <Badge className="text-sm md:text-base px-5 py-2 bg-gradient-to-r from-[oklch(0.68_0.26_190)] to-[oklch(0.65_0.30_210)] text-white hover:shadow-lg hover:scale-105 transition-all shadow-md font-semibold border-0 opacity-80">
                   <Globe className="mr-2" weight="fill" size={18} />
                   Международный опыт
                 </Badge>
-                <Badge className="text-sm md:text-base px-5 py-2 bg-gradient-to-r from-accent to-[oklch(0.70_0.30_70)] text-accent-foreground hover:shadow-lg hover:scale-105 transition-all shadow-md font-semibold border-0">
+                <Badge className="text-sm md:text-base px-5 py-2 bg-gradient-to-r from-accent to-[oklch(0.70_0.30_70)] text-accent-foreground hover:shadow-lg hover:scale-105 transition-all shadow-md font-semibold border-0 opacity-80">
                   <Heart className="mr-2" weight="fill" size={18} />
                   Групповые и индивидуальные уроки
                 </Badge>
