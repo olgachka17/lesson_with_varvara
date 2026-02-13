@@ -80,7 +80,7 @@ function App() {
               </div>
 
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-foreground">
-                <span className="block bg-gradient-to-r from-pink-500 via-pink-300 to-pink-500 bg-clip-text text-transparent" style={{ WebkitTextStroke: '1px white', textShadow: '0 0 40px rgba(236, 72, 153, 0.8), 0 0 80px rgba(236, 72, 153, 0.4)', filter: 'drop-shadow(0 0 20px rgba(236, 72, 153, 0.6))' }}>Английский для взрослых:</span>
+                <span className="block bg-gradient-to-r from-pink-600 via-pink-500 to-pink-600 bg-clip-text text-transparent" style={{ textShadow: '0 0 40px rgba(236, 72, 153, 0.8), 0 0 80px rgba(236, 72, 153, 0.4)', filter: 'drop-shadow(0 0 20px rgba(236, 72, 153, 0.6))' }}>Английский для взрослых:</span>
                 <span className="block">заговорите уверенно через несколько месяцев регулярных занятий</span>
               </h1>
 
